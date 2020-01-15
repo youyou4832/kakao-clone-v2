@@ -2,7 +2,11 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600&display=swap");
 @import "status-bar.css";
 @import "header.css";
-
+@import "nav-bar.css";
+@import "friend.css";
+* {
+  box-sizing: border-box;
+}
 body {
   background-color: white;
   padding: 10px 20px;
@@ -13,4 +17,5 @@ body {
 
 a {
   color: inherit; /*부모로부터 색 받아오기*/
+  text-decoration: none;
 }
